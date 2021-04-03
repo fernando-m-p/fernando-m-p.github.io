@@ -1,0 +1,90 @@
+body{
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  margin:0;
+  padding:0;
+  box-sizing: content;
+}
+
+section{
+  background:white;
+  margin: 200px auto;
+  width: max-content;
+  min-width: 600px;
+  border-radius: 20px;
+  padding: 0 0 5px 0;
+}
+
+section header{
+  background:url("https://static3.cbrimages.com/wordpress/wp-content/uploads/2020/04/Star-Wars.jpg");
+  background-size: cover;
+  height: 200px;
+  border-radius: 20px;
+    
+}
+
+
+#foto{
+  height:200px;
+  margin: 0 auto;
+  display:block;
+  border-radius:100%;
+  transform: translatey(-50%);
+  box-shadow: 0px -20px 20px #fff, 30px -30px 20px #f69d3cbd, -30px -30px 20px #3f87a6cc;
+}
+
+section h1{
+  text-align: center;
+  font-size: 30px;
+}
+
+section h2, section h1{
+  text-align: center;
+}
+
+section div{
+  background: #E0E0E0;
+  border: 1px solid;
+  width: 90%;
+  margin: 50px auto;
+  border-radius: 20px;
+}
+
+
+.p361ku9c{
+  fill: white;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 16px 0px;
+}
+
+nav *{
+    display:block;
+    height: 50px;
+  
+}
+
+section p{
+  font-size: 17px;
+  max-width: 500px;
+  text-align: justify;
+  margin: auto;
+}
+section div ol li{
+  margin: 10px;
+}
+section div ol li a:hover {
+    box-shadow: -5px 5px;
+    font-size: 1.2rem;
+}
+
+section div ol li a {
+    text-decoration: none;
+    padding: 5px;
+    background: white;
+    border-radius: 20px;
+    color: black;
+    margin-left: 10px;
+}
